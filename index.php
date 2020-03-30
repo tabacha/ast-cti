@@ -58,12 +58,12 @@
 
 <main role="main" class="container">
   <div class="starter-template">
-    <h1>Bootstrap starter template</h1>
+    <h1>Telefonbuch Anders-Hamburg</h1>
     <input class="form-control mr-sm-2" name="search" type="text" placeholder="Suche" aria-label="Suche">
 
     <p class="lead">
 
-                     <table class="table">
+    <table class="table">
   <thead>
     <tr>
       <th scope="col">Vorname</th>
@@ -75,7 +75,6 @@
   <tbody id="telBody" >
   </tbody>
 </table>
-Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.
 </p>
   </div>
 
