@@ -1,0 +1,7 @@
+<?php
+
+$password="secretz";
+$vCardPath="./contacts.vcf";
+
+$AsteriskOutgoingDir="/var/spool/asterisk/outgoing";
+$baseURL="http://localhost:8080/";
