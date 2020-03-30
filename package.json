@@ -1,0 +1,15 @@
+{
+  "name": "ast-cti",
+  "version": "1.0.0",
+  "description": "Telefon click to dial",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
