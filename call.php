@@ -16,7 +16,7 @@ if ($password == $_GET['password']) {
     $content .= "Channel: SIP/".$int."\n";
     $content .= "MaxRetries: 2\n";
     $content .= "RetryTime: 60\n";
-    $content .= "WaitTime: 30\n";
+    $content .= "WaitTime: 20\n";
     $content .= "Context: svelke\n";
     $content .= "Extension: ".$num."\n";
     file_put_contents ( $filename , $content);
