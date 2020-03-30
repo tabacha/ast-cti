@@ -16,9 +16,15 @@ $navLinks.click(function(e) {
 
 function showTelephoneNumbers(data) {
     var out=[]
-    for (let [key, value] of Object.entries(data)) {
-        out.push($('<a>', { href:"call.php?num="+encodeURIComponent(value)+'&internal='+internal_phone+'&password='+password
+    for (let [key, values] of Object.entries(data)) {
+        if (typeof values === 'string' ) {
+            values = [ values ];
+        }
+        values.forEach(value => {
+            out.push($('<a>', { href:"call.php?num="+encodeURIComponent(value)+'&internal='+internal_phone+'&password='+password
             }).text(`${key}: ${value}`));
+        });
+
     }
     return out;
 };

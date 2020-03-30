@@ -53,16 +53,13 @@
         <a class="nav-link" tel="203" href="#">Schlafzimmer</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" name="search" type="text" placeholder="Suche" aria-label="Suche">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Suche</button>
-    </form>
   </div>
 </nav>
 
 <main role="main" class="container">
   <div class="starter-template">
     <h1>Bootstrap starter template</h1>
+    <input class="form-control mr-sm-2" name="search" type="text" placeholder="Suche" aria-label="Suche">
 
     <p class="lead">
 

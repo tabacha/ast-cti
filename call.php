@@ -14,7 +14,7 @@ if ($password == $_GET['password']) {
     $filename=$AsteriskOutgoingDir."/mein.call";
     $content = "Callerid: ". $num . "\n";
     $content .= "Channel: SIP/".$int."\n";
-    $content .= "MaxRetries: 2\n";
+    $content .= "MaxRetries: 1\n";
     $content .= "RetryTime: 60\n";
     $content .= "WaitTime: 20\n";
     $content .= "Context: svelke\n";
